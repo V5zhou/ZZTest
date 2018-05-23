@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "ZZTableDataSource.h"
 
 @interface ViewController ()
 
@@ -32,6 +31,11 @@
                                       @"Block测试",
                                       @"自定义HUB",
                                       @"一个开屏动画",
+                                      @"UnRecognize处理",
+                                      @"AutoReleasePool底层原理",
+                                      @"C函数的hook",
+                                      @"粒子效果",
+                                      @"自定义推出动画"
                                       ]
                                   ];
 }
@@ -56,6 +60,11 @@
                        @"Block测试" : @"BlockTestViewController",
                        @"自定义HUB" : @"HUBViewController",
                        @"一个开屏动画" : @"OpenScreenViewController",
+                       @"UnRecognize处理" : @"UnRecognizeResolveViewController",
+                       @"AutoReleasePool底层原理" : @"AutoReleasePoolTestViewController",
+                       @"C函数的hook" : @"HookCViewController",
+                       @"粒子效果" : @"EmitterViewController",
+                       @"自定义推出动画" : @"CollectionViewController",
                        };
     }
     return _pushClass;

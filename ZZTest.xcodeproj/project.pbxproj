@@ -16,6 +16,25 @@
 		FC1FF33420AC3605005D3184 /* AnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33320AC3605005D3184 /* AnimateView.m */; };
 		FC1FF33820AC3653005D3184 /* OpenScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33720AC3653005D3184 /* OpenScreenViewController.m */; };
 		FC1FF33B20AC36B7005D3184 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33920AC36B7005D3184 /* UIColor+Extend.m */; };
+		FC1FF34020AD270E005D3184 /* UnRecognizeResolveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33F20AD270E005D3184 /* UnRecognizeResolveViewController.m */; };
+		FC1FF34320AD2793005D3184 /* NSObject+unrecognizeResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF34220AD2793005D3184 /* NSObject+unrecognizeResolve.m */; };
+		FC66DBBF20AD66D60087483E /* AutoReleasePoolTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC66DBBE20AD66D60087483E /* AutoReleasePoolTestViewController.m */; };
+		FC66DBC920AE79CC0087483E /* HookCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC66DBC820AE79CC0087483E /* HookCViewController.m */; };
+		FC66DBD320AE7CCA0087483E /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FC66DBD220AE7CCA0087483E /* fishhook.c */; };
+		FC66DBD920B279B30087483E /* UINavigationController+fullScreenPop.m in Sources */ = {isa = PBXBuildFile; fileRef = FC66DBD820B279B30087483E /* UINavigationController+fullScreenPop.m */; };
+		FC6F93A220B2B5BB004848D5 /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93A120B2B5BB004848D5 /* EmitterViewController.m */; };
+		FC6F93A620B2B648004848D5 /* SnowEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93A520B2B648004848D5 /* SnowEmitterLayer.m */; };
+		FC6F93A820B2B885004848D5 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93A720B2B885004848D5 /* snow.png */; };
+		FC6F93B320B3A709004848D5 /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93B220B3A709004848D5 /* sparkle.png */; };
+		FC6F93B520B3AC91004848D5 /* praise_default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93B420B3AC91004848D5 /* praise_default.png */; };
+		FC6F93B720B3AC97004848D5 /* praise_select.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93B620B3AC97004848D5 /* praise_select.png */; };
+		FC6F93BA20B3ACE8004848D5 /* PrizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93B920B3ACE8004848D5 /* PrizeButton.m */; };
+		FC6F93BD20B3B7D5004848D5 /* ReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93BC20B3B7D5004848D5 /* ReplicatorLayer.m */; };
+		FC6F93C020B3E545004848D5 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93BF20B3E545004848D5 /* CollectionViewController.m */; };
+		FC6F93C420B3E568004848D5 /* CollectionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93C220B3E568004848D5 /* CollectionDetailViewController.m */; };
+		FC6F93C520B3E568004848D5 /* CollectionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93C320B3E568004848D5 /* CollectionDetailViewController.xib */; };
+		FC6F93C820B3E5A0004848D5 /* zz_AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93C720B3E5A0004848D5 /* zz_AnimatedTransitioning.m */; };
+		FC6F93D520B4FFD1004848D5 /* zz_PopInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93D420B4FFD1004848D5 /* zz_PopInteractiveTransition.m */; };
 		FC8151BD209993A200BFF58E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8151BC209993A200BFF58E /* AppDelegate.m */; };
 		FC8151C0209993A200BFF58E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8151BF209993A200BFF58E /* ViewController.m */; };
 		FC8151C3209993A200BFF58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8151C1209993A200BFF58E /* Main.storyboard */; };
@@ -57,6 +76,39 @@
 		FC1FF33720AC3653005D3184 /* OpenScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenScreenViewController.m; sourceTree = "<group>"; };
 		FC1FF33920AC36B7005D3184 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
 		FC1FF33A20AC36B7005D3184 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		FC1FF33E20AD270E005D3184 /* UnRecognizeResolveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnRecognizeResolveViewController.h; sourceTree = "<group>"; };
+		FC1FF33F20AD270E005D3184 /* UnRecognizeResolveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnRecognizeResolveViewController.m; sourceTree = "<group>"; };
+		FC1FF34120AD2793005D3184 /* NSObject+unrecognizeResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+unrecognizeResolve.h"; sourceTree = "<group>"; };
+		FC1FF34220AD2793005D3184 /* NSObject+unrecognizeResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+unrecognizeResolve.m"; sourceTree = "<group>"; };
+		FC66DBBD20AD66D60087483E /* AutoReleasePoolTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoReleasePoolTestViewController.h; sourceTree = "<group>"; };
+		FC66DBBE20AD66D60087483E /* AutoReleasePoolTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoReleasePoolTestViewController.m; sourceTree = "<group>"; };
+		FC66DBC720AE79CC0087483E /* HookCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookCViewController.h; sourceTree = "<group>"; };
+		FC66DBC820AE79CC0087483E /* HookCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookCViewController.m; sourceTree = "<group>"; };
+		FC66DBD120AE7CCA0087483E /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		FC66DBD220AE7CCA0087483E /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		FC66DBD720B279B30087483E /* UINavigationController+fullScreenPop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+fullScreenPop.h"; sourceTree = "<group>"; };
+		FC66DBD820B279B30087483E /* UINavigationController+fullScreenPop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+fullScreenPop.m"; sourceTree = "<group>"; };
+		FC6F93A020B2B5BB004848D5 /* EmitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		FC6F93A120B2B5BB004848D5 /* EmitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		FC6F93A420B2B648004848D5 /* SnowEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowEmitterLayer.h; sourceTree = "<group>"; };
+		FC6F93A520B2B648004848D5 /* SnowEmitterLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowEmitterLayer.m; sourceTree = "<group>"; };
+		FC6F93A720B2B885004848D5 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		FC6F93B220B3A709004848D5 /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		FC6F93B420B3AC91004848D5 /* praise_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praise_default.png; sourceTree = "<group>"; };
+		FC6F93B620B3AC97004848D5 /* praise_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praise_select.png; sourceTree = "<group>"; };
+		FC6F93B820B3ACE8004848D5 /* PrizeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrizeButton.h; sourceTree = "<group>"; };
+		FC6F93B920B3ACE8004848D5 /* PrizeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrizeButton.m; sourceTree = "<group>"; };
+		FC6F93BB20B3B7D5004848D5 /* ReplicatorLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayer.h; sourceTree = "<group>"; };
+		FC6F93BC20B3B7D5004848D5 /* ReplicatorLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayer.m; sourceTree = "<group>"; };
+		FC6F93BE20B3E545004848D5 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		FC6F93BF20B3E545004848D5 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		FC6F93C120B3E568004848D5 /* CollectionDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionDetailViewController.h; sourceTree = "<group>"; };
+		FC6F93C220B3E568004848D5 /* CollectionDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionDetailViewController.m; sourceTree = "<group>"; };
+		FC6F93C320B3E568004848D5 /* CollectionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionDetailViewController.xib; sourceTree = "<group>"; };
+		FC6F93C620B3E5A0004848D5 /* zz_AnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zz_AnimatedTransitioning.h; sourceTree = "<group>"; };
+		FC6F93C720B3E5A0004848D5 /* zz_AnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zz_AnimatedTransitioning.m; sourceTree = "<group>"; };
+		FC6F93D320B4FFD1004848D5 /* zz_PopInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zz_PopInteractiveTransition.h; sourceTree = "<group>"; };
+		FC6F93D420B4FFD1004848D5 /* zz_PopInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zz_PopInteractiveTransition.m; sourceTree = "<group>"; };
 		FC8151B8209993A200BFF58E /* ZZTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8151BB209993A200BFF58E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC8151BC209993A200BFF58E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -159,6 +211,90 @@
 			path = "一个开屏动画";
 			sourceTree = "<group>";
 		};
+		FC1FF33D20AD26C4005D3184 /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				FC1FF33A20AC36B7005D3184 /* UIColor+Extend.h */,
+				FC1FF33920AC36B7005D3184 /* UIColor+Extend.m */,
+			);
+			path = "第三方";
+			sourceTree = "<group>";
+		};
+		FC1FF34420AD344B005D3184 /* 避免UnRecognize崩溃 */ = {
+			isa = PBXGroup;
+			children = (
+				FC1FF33E20AD270E005D3184 /* UnRecognizeResolveViewController.h */,
+				FC1FF33F20AD270E005D3184 /* UnRecognizeResolveViewController.m */,
+				FC1FF34120AD2793005D3184 /* NSObject+unrecognizeResolve.h */,
+				FC1FF34220AD2793005D3184 /* NSObject+unrecognizeResolve.m */,
+			);
+			path = "避免UnRecognize崩溃";
+			sourceTree = "<group>";
+		};
+		FC66DBC020AD66DC0087483E /* AutoReleasePool底层原理 */ = {
+			isa = PBXGroup;
+			children = (
+				FC66DBBD20AD66D60087483E /* AutoReleasePoolTestViewController.h */,
+				FC66DBBE20AD66D60087483E /* AutoReleasePoolTestViewController.m */,
+			);
+			path = "AutoReleasePool底层原理";
+			sourceTree = "<group>";
+		};
+		FC66DBCD20AE79EA0087483E /* C函数的hook */ = {
+			isa = PBXGroup;
+			children = (
+				FC66DBC720AE79CC0087483E /* HookCViewController.h */,
+				FC66DBC820AE79CC0087483E /* HookCViewController.m */,
+				FC66DBD120AE7CCA0087483E /* fishhook.h */,
+				FC66DBD220AE7CCA0087483E /* fishhook.c */,
+			);
+			path = "C函数的hook";
+			sourceTree = "<group>";
+		};
+		FC66DBDA20B2A14B0087483E /* 仿FD全屏返回手势 */ = {
+			isa = PBXGroup;
+			children = (
+				FC66DBD720B279B30087483E /* UINavigationController+fullScreenPop.h */,
+				FC66DBD820B279B30087483E /* UINavigationController+fullScreenPop.m */,
+			);
+			path = "仿FD全屏返回手势";
+			sourceTree = "<group>";
+		};
+		FC6F93A320B2B5BF004848D5 /* 粒子效果_复制效果 */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F93B620B3AC97004848D5 /* praise_select.png */,
+				FC6F93B420B3AC91004848D5 /* praise_default.png */,
+				FC6F93B220B3A709004848D5 /* sparkle.png */,
+				FC6F93A720B2B885004848D5 /* snow.png */,
+				FC6F93A020B2B5BB004848D5 /* EmitterViewController.h */,
+				FC6F93A120B2B5BB004848D5 /* EmitterViewController.m */,
+				FC6F93A420B2B648004848D5 /* SnowEmitterLayer.h */,
+				FC6F93A520B2B648004848D5 /* SnowEmitterLayer.m */,
+				FC6F93BB20B3B7D5004848D5 /* ReplicatorLayer.h */,
+				FC6F93BC20B3B7D5004848D5 /* ReplicatorLayer.m */,
+				FC6F93B820B3ACE8004848D5 /* PrizeButton.h */,
+				FC6F93B920B3ACE8004848D5 /* PrizeButton.m */,
+			);
+			path = "粒子效果_复制效果";
+			sourceTree = "<group>";
+		};
+		FC6F93C920B3E949004848D5 /* 自定义推出动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F93BE20B3E545004848D5 /* CollectionViewController.h */,
+				FC6F93BF20B3E545004848D5 /* CollectionViewController.m */,
+				FC6F93C120B3E568004848D5 /* CollectionDetailViewController.h */,
+				FC6F93C220B3E568004848D5 /* CollectionDetailViewController.m */,
+				FC6F93C320B3E568004848D5 /* CollectionDetailViewController.xib */,
+				FC6F93C620B3E5A0004848D5 /* zz_AnimatedTransitioning.h */,
+				FC6F93C720B3E5A0004848D5 /* zz_AnimatedTransitioning.m */,
+				FC6F93D320B4FFD1004848D5 /* zz_PopInteractiveTransition.h */,
+				FC6F93D420B4FFD1004848D5 /* zz_PopInteractiveTransition.m */,
+			);
+			path = "自定义推出动画";
+			sourceTree = "<group>";
+		};
 		FC8151AF209993A200BFF58E = {
 			isa = PBXGroup;
 			children = (
@@ -182,8 +318,12 @@
 				FC8151BC209993A200BFF58E /* AppDelegate.m */,
 				FC8151BE209993A200BFF58E /* ViewController.h */,
 				FC8151BF209993A200BFF58E /* ViewController.m */,
-				FC1FF33A20AC36B7005D3184 /* UIColor+Extend.h */,
-				FC1FF33920AC36B7005D3184 /* UIColor+Extend.m */,
+				FC6F93C920B3E949004848D5 /* 自定义推出动画 */,
+				FC6F93A320B2B5BF004848D5 /* 粒子效果_复制效果 */,
+				FC66DBDA20B2A14B0087483E /* 仿FD全屏返回手势 */,
+				FC66DBCD20AE79EA0087483E /* C函数的hook */,
+				FC66DBC020AD66DC0087483E /* AutoReleasePool底层原理 */,
+				FC1FF34420AD344B005D3184 /* 避免UnRecognize崩溃 */,
 				FC1FF33520AC3610005D3184 /* 一个开屏动画 */,
 				FCA38E5520A9947D008EC48C /* 自定义仿写HUB */,
 				FC1853B620A2958D00917A4C /* 验证block的类型方式 */,
@@ -194,6 +334,7 @@
 				FC8151DF209B13F100BFF58E /* H5文本批量替换 */,
 				FC8151DB2099A80A00BFF58E /* Bounds测试 */,
 				FC8151DA2099A7F500BFF58E /* ZZTableDataSource */,
+				FC1FF33D20AD26C4005D3184 /* 第三方 */,
 				FC8151C1209993A200BFF58E /* Main.storyboard */,
 				FC185394209FF00500917A4C /* PrefixHeader.pch */,
 				FC8151C4209993A200BFF58E /* Assets.xcassets */,
@@ -320,13 +461,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA38E5020A99476008EC48C /* angle-mask@3x.png in Resources */,
+				FC6F93B720B3AC97004848D5 /* praise_select.png in Resources */,
 				FCA38E4420A9946B008EC48C /* HUBViewController.xib in Resources */,
+				FC6F93B320B3A709004848D5 /* sparkle.png in Resources */,
+				FC6F93A820B2B885004848D5 /* snow.png in Resources */,
+				FC6F93C520B3E568004848D5 /* CollectionDetailViewController.xib in Resources */,
 				FCA38E5120A99476008EC48C /* angle-mask@2x.png in Resources */,
 				FC8151C8209993A200BFF58E /* LaunchScreen.storyboard in Resources */,
 				FC8151C5209993A200BFF58E /* Assets.xcassets in Resources */,
 				FCA38E5420A99476008EC48C /* angle-mask.png in Resources */,
 				FCA38E5920A9957D008EC48C /* 2.jpg in Resources */,
 				FC8151C3209993A200BFF58E /* Main.storyboard in Resources */,
+				FC6F93B520B3AC91004848D5 /* praise_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,11 +483,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1FF34320AD2793005D3184 /* NSObject+unrecognizeResolve.m in Sources */,
 				FC8151E8209BFB4A00BFF58E /* ZZWebTextReplace.m in Sources */,
+				FC66DBD920B279B30087483E /* UINavigationController+fullScreenPop.m in Sources */,
+				FC6F93C020B3E545004848D5 /* CollectionViewController.m in Sources */,
 				FC8151DE209B13EB00BFF58E /* URLProtocolViewController.m in Sources */,
+				FC6F93BD20B3B7D5004848D5 /* ReplicatorLayer.m in Sources */,
+				FC66DBC920AE79CC0087483E /* HookCViewController.m in Sources */,
 				FC1853B520A2958300917A4C /* BlockTestViewController.m in Sources */,
 				FC18538F209FE4D700917A4C /* Moniter.m in Sources */,
+				FC6F93BA20B3ACE8004848D5 /* PrizeButton.m in Sources */,
 				FC185393209FE50600917A4C /* FPSViewController.m in Sources */,
+				FC6F93C820B3E5A0004848D5 /* zz_AnimatedTransitioning.m in Sources */,
 				FCA38E5320A99476008EC48C /* DMProgressAnimateImage.m in Sources */,
 				FCA38E5220A99476008EC48C /* DMProgressHUB.m in Sources */,
 				FCA38E4F20A99476008EC48C /* DMRadiaView.m in Sources */,
@@ -349,13 +502,20 @@
 				FC1853AB20A1488900917A4C /* DataStructureViewController.m in Sources */,
 				FC8151C0209993A200BFF58E /* ViewController.m in Sources */,
 				FC1853A120A0383500917A4C /* NSObject+delegateHook.m in Sources */,
+				FC6F93C420B3E568004848D5 /* CollectionDetailViewController.m in Sources */,
 				FC8151D62099A16900BFF58E /* BoundsTestViewController.m in Sources */,
+				FC6F93D520B4FFD1004848D5 /* zz_PopInteractiveTransition.m in Sources */,
 				FC8151D32099951500BFF58E /* ZZTableDataSource.m in Sources */,
 				FC8151CB209993A200BFF58E /* main.m in Sources */,
 				FC1FF33B20AC36B7005D3184 /* UIColor+Extend.m in Sources */,
+				FC6F93A620B2B648004848D5 /* SnowEmitterLayer.m in Sources */,
 				FCA38E4320A9946B008EC48C /* HUBViewController.m in Sources */,
+				FC1FF34020AD270E005D3184 /* UnRecognizeResolveViewController.m in Sources */,
 				FC8151BD209993A200BFF58E /* AppDelegate.m in Sources */,
+				FC66DBD320AE7CCA0087483E /* fishhook.c in Sources */,
+				FC6F93A220B2B5BB004848D5 /* EmitterViewController.m in Sources */,
 				FC1853AF20A173FA00917A4C /* ArgsViewController.m in Sources */,
+				FC66DBBF20AD66D60087483E /* AutoReleasePoolTestViewController.m in Sources */,
 				FC1FF33820AC3653005D3184 /* OpenScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,7 +655,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ZZTest/PrefixHeader.pch;
 				INFOPLIST_FILE = ZZTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = DM.ZZTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -511,7 +673,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ZZTest/PrefixHeader.pch;
 				INFOPLIST_FILE = ZZTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = DM.ZZTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
