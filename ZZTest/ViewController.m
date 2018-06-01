@@ -35,7 +35,10 @@
                                       @"AutoReleasePool底层原理",
                                       @"C函数的hook",
                                       @"粒子效果",
-                                      @"自定义推出动画"
+                                      @"自定义推出动画",
+                                      @"渐变色",
+                                      @"collection的弹簧效果",
+                                      @"滤镜效果",
                                       ]
                                   ];
 }
@@ -65,6 +68,9 @@
                        @"C函数的hook" : @"HookCViewController",
                        @"粒子效果" : @"EmitterViewController",
                        @"自定义推出动画" : @"CollectionViewController",
+                       @"渐变色" : @"GradientViewController",
+                       @"collection的弹簧效果" : @"zz_DynamicCollectionViewController",
+                       @"滤镜效果" : @"FilterViewController",
                        };
     }
     return _pushClass;

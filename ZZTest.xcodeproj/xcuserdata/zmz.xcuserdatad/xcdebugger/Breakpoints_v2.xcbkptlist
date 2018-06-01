@@ -76,7 +76,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "ZZTest/&#x81ea;&#x5b9a;&#x4e49;&#x63a8;&#x51fa;&#x52a8;&#x753b;/zz_PopInteractiveTransition.m"
-            timestampString = "548737391.178508"
+            timestampString = "548910863.485692"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -100,7 +100,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "ZZTest/&#x81ea;&#x5b9a;&#x4e49;&#x63a8;&#x51fa;&#x52a8;&#x753b;/zz_PopInteractiveTransition.m"
-            timestampString = "548737391.178584"
+            timestampString = "548910863.4857889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -124,7 +124,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "ZZTest/Bounds&#x6d4b;&#x8bd5;/BoundsTestViewController.m"
-            timestampString = "548737391.178634"
+            timestampString = "548910863.485866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -139,6 +139,70 @@
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZTest/&#x81ea;&#x5b9a;&#x4e49;&#x63a8;&#x51fa;&#x52a8;&#x753b;/zz_AnimatedTransitioning.m"
+            timestampString = "548910863.485937"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-animateTransition:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZTest/&#x81ea;&#x5b9a;&#x4e49;&#x63a8;&#x51fa;&#x52a8;&#x753b;/zz_AnimatedTransitioning.m"
+            timestampString = "548910863.486001"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-animateTransition:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[zz_AnimatedTransitioning animateTransition:]"
+                  moduleName = "ZZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zmz/Desktop/ZZTest/ZZTest/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A8%E5%87%BA%E5%8A%A8%E7%94%BB/zz_AnimatedTransitioning.m"
+                  timestampString = "549171539.010947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1651">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[zz_AnimatedTransitioning animateTransition:]_block_invoke"
+                  moduleName = "ZZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zmz/Desktop/ZZTest/ZZTest/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A8%E5%87%BA%E5%8A%A8%E7%94%BB/zz_AnimatedTransitioning.m"
+                  timestampString = "549171539.0136991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

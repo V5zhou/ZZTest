@@ -35,6 +35,16 @@
 		FC6F93C520B3E568004848D5 /* CollectionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93C320B3E568004848D5 /* CollectionDetailViewController.xib */; };
 		FC6F93C820B3E5A0004848D5 /* zz_AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93C720B3E5A0004848D5 /* zz_AnimatedTransitioning.m */; };
 		FC6F93D520B4FFD1004848D5 /* zz_PopInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93D420B4FFD1004848D5 /* zz_PopInteractiveTransition.m */; };
+		FC6F93D920B53A71004848D5 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93D720B53A71004848D5 /* GradientViewController.m */; };
+		FC6F93DA20B53A71004848D5 /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93D820B53A71004848D5 /* GradientViewController.xib */; };
+		FC6F93E120B53AE0004848D5 /* CGShading_Axial.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93DC20B53ADF004848D5 /* CGShading_Axial.m */; };
+		FC6F93E220B53AE0004848D5 /* CGShading_Radial.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93E020B53AE0004848D5 /* CGShading_Radial.m */; };
+		FC6F93E420B53AE8004848D5 /* TransparencyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93E320B53AE8004848D5 /* TransparencyView.m */; };
+		FC6F93E720B53D29004848D5 /* CAGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93E620B53D29004848D5 /* CAGradientView.m */; };
+		FC6F93EA20B5403D004848D5 /* CoreGraphicsGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93E920B5403D004848D5 /* CoreGraphicsGradientView.m */; };
+		FC6F93ED20B79E29004848D5 /* zz_DynamicCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93EC20B79E29004848D5 /* zz_DynamicCollectionViewController.m */; };
+		FC6F93F020B79E4D004848D5 /* zz_DynamicCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F93EF20B79E4D004848D5 /* zz_DynamicCollectionLayout.m */; };
+		FC6F93F220B79E6B004848D5 /* zz_DynamicCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6F93F120B79E6B004848D5 /* zz_DynamicCollectionViewController.xib */; };
 		FC8151BD209993A200BFF58E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8151BC209993A200BFF58E /* AppDelegate.m */; };
 		FC8151C0209993A200BFF58E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8151BF209993A200BFF58E /* ViewController.m */; };
 		FC8151C3209993A200BFF58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8151C1209993A200BFF58E /* Main.storyboard */; };
@@ -45,6 +55,10 @@
 		FC8151D62099A16900BFF58E /* BoundsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8151D52099A16900BFF58E /* BoundsTestViewController.m */; };
 		FC8151DE209B13EB00BFF58E /* URLProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8151DD209B13EB00BFF58E /* URLProtocolViewController.m */; };
 		FC8151E8209BFB4A00BFF58E /* ZZWebTextReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8151E7209BFB4A00BFF58E /* ZZWebTextReplace.m */; };
+		FCA1BB3420B7F3F800588E43 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA1BB3220B7F3F800588E43 /* FilterViewController.m */; };
+		FCA1BB3520B7F3F800588E43 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA1BB3320B7F3F800588E43 /* FilterViewController.xib */; };
+		FCA1BB3B20B7F56900588E43 /* UIImage+QRcode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA1BB3A20B7F56900588E43 /* UIImage+QRcode.m */; };
+		FCA1BB3D20B80AEB00588E43 /* fbb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCA1BB3C20B80AEB00588E43 /* fbb.jpeg */; };
 		FCA38E4320A9946B008EC48C /* HUBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA38E4020A9946B008EC48C /* HUBViewController.m */; };
 		FCA38E4420A9946B008EC48C /* HUBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA38E4220A9946B008EC48C /* HUBViewController.xib */; };
 		FCA38E4F20A99476008EC48C /* DMRadiaView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA38E4720A99476008EC48C /* DMRadiaView.m */; };
@@ -109,6 +123,24 @@
 		FC6F93C720B3E5A0004848D5 /* zz_AnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zz_AnimatedTransitioning.m; sourceTree = "<group>"; };
 		FC6F93D320B4FFD1004848D5 /* zz_PopInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zz_PopInteractiveTransition.h; sourceTree = "<group>"; };
 		FC6F93D420B4FFD1004848D5 /* zz_PopInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zz_PopInteractiveTransition.m; sourceTree = "<group>"; };
+		FC6F93D620B53A71004848D5 /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		FC6F93D720B53A71004848D5 /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		FC6F93D820B53A71004848D5 /* GradientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GradientViewController.xib; sourceTree = "<group>"; };
+		FC6F93DC20B53ADF004848D5 /* CGShading_Axial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGShading_Axial.m; sourceTree = "<group>"; };
+		FC6F93DD20B53ADF004848D5 /* TransparencyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparencyView.h; sourceTree = "<group>"; };
+		FC6F93DE20B53ADF004848D5 /* CGShading_Axial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGShading_Axial.h; sourceTree = "<group>"; };
+		FC6F93DF20B53AE0004848D5 /* CGShading_Radial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGShading_Radial.h; sourceTree = "<group>"; };
+		FC6F93E020B53AE0004848D5 /* CGShading_Radial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGShading_Radial.m; sourceTree = "<group>"; };
+		FC6F93E320B53AE8004848D5 /* TransparencyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparencyView.m; sourceTree = "<group>"; };
+		FC6F93E520B53D29004848D5 /* CAGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGradientView.h; sourceTree = "<group>"; };
+		FC6F93E620B53D29004848D5 /* CAGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGradientView.m; sourceTree = "<group>"; };
+		FC6F93E820B5403D004848D5 /* CoreGraphicsGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsGradientView.h; sourceTree = "<group>"; };
+		FC6F93E920B5403D004848D5 /* CoreGraphicsGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsGradientView.m; sourceTree = "<group>"; };
+		FC6F93EB20B79E29004848D5 /* zz_DynamicCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zz_DynamicCollectionViewController.h; sourceTree = "<group>"; };
+		FC6F93EC20B79E29004848D5 /* zz_DynamicCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zz_DynamicCollectionViewController.m; sourceTree = "<group>"; };
+		FC6F93EE20B79E4D004848D5 /* zz_DynamicCollectionLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zz_DynamicCollectionLayout.h; sourceTree = "<group>"; };
+		FC6F93EF20B79E4D004848D5 /* zz_DynamicCollectionLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zz_DynamicCollectionLayout.m; sourceTree = "<group>"; };
+		FC6F93F120B79E6B004848D5 /* zz_DynamicCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = zz_DynamicCollectionViewController.xib; sourceTree = "<group>"; };
 		FC8151B8209993A200BFF58E /* ZZTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8151BB209993A200BFF58E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC8151BC209993A200BFF58E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +159,12 @@
 		FC8151DD209B13EB00BFF58E /* URLProtocolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLProtocolViewController.m; sourceTree = "<group>"; };
 		FC8151E6209BFB4A00BFF58E /* ZZWebTextReplace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZWebTextReplace.h; sourceTree = "<group>"; };
 		FC8151E7209BFB4A00BFF58E /* ZZWebTextReplace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWebTextReplace.m; sourceTree = "<group>"; };
+		FCA1BB3120B7F3F800588E43 /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		FCA1BB3220B7F3F800588E43 /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		FCA1BB3320B7F3F800588E43 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		FCA1BB3920B7F56900588E43 /* UIImage+QRcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRcode.h"; sourceTree = "<group>"; };
+		FCA1BB3A20B7F56900588E43 /* UIImage+QRcode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRcode.m"; sourceTree = "<group>"; };
+		FCA1BB3C20B80AEB00588E43 /* fbb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fbb.jpeg; sourceTree = "<group>"; };
 		FCA38E4020A9946B008EC48C /* HUBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUBViewController.m; sourceTree = "<group>"; };
 		FCA38E4120A9946B008EC48C /* HUBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUBViewController.h; sourceTree = "<group>"; };
 		FCA38E4220A9946B008EC48C /* HUBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HUBViewController.xib; sourceTree = "<group>"; };
@@ -295,6 +333,26 @@
 			path = "自定义推出动画";
 			sourceTree = "<group>";
 		};
+		FC6F93DB20B53A81004848D5 /* 渐变色 */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F93D620B53A71004848D5 /* GradientViewController.h */,
+				FC6F93D720B53A71004848D5 /* GradientViewController.m */,
+				FC6F93D820B53A71004848D5 /* GradientViewController.xib */,
+				FC6F93DE20B53ADF004848D5 /* CGShading_Axial.h */,
+				FC6F93DC20B53ADF004848D5 /* CGShading_Axial.m */,
+				FC6F93DF20B53AE0004848D5 /* CGShading_Radial.h */,
+				FC6F93E020B53AE0004848D5 /* CGShading_Radial.m */,
+				FC6F93DD20B53ADF004848D5 /* TransparencyView.h */,
+				FC6F93E320B53AE8004848D5 /* TransparencyView.m */,
+				FC6F93E520B53D29004848D5 /* CAGradientView.h */,
+				FC6F93E620B53D29004848D5 /* CAGradientView.m */,
+				FC6F93E820B5403D004848D5 /* CoreGraphicsGradientView.h */,
+				FC6F93E920B5403D004848D5 /* CoreGraphicsGradientView.m */,
+			);
+			path = "渐变色";
+			sourceTree = "<group>";
+		};
 		FC8151AF209993A200BFF58E = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +376,9 @@
 				FC8151BC209993A200BFF58E /* AppDelegate.m */,
 				FC8151BE209993A200BFF58E /* ViewController.h */,
 				FC8151BF209993A200BFF58E /* ViewController.m */,
+				FCA1BB4120BBDEB000588E43 /* 滤镜效果 */,
+				FCA1BB3020B7EEC200588E43 /* 弹簧效果collection */,
+				FC6F93DB20B53A81004848D5 /* 渐变色 */,
 				FC6F93C920B3E949004848D5 /* 自定义推出动画 */,
 				FC6F93A320B2B5BF004848D5 /* 粒子效果_复制效果 */,
 				FC66DBDA20B2A14B0087483E /* 仿FD全屏返回手势 */,
@@ -372,6 +433,31 @@
 				FC8151E7209BFB4A00BFF58E /* ZZWebTextReplace.m */,
 			);
 			path = "H5文本批量替换";
+			sourceTree = "<group>";
+		};
+		FCA1BB3020B7EEC200588E43 /* 弹簧效果collection */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F93EB20B79E29004848D5 /* zz_DynamicCollectionViewController.h */,
+				FC6F93EC20B79E29004848D5 /* zz_DynamicCollectionViewController.m */,
+				FC6F93F120B79E6B004848D5 /* zz_DynamicCollectionViewController.xib */,
+				FC6F93EE20B79E4D004848D5 /* zz_DynamicCollectionLayout.h */,
+				FC6F93EF20B79E4D004848D5 /* zz_DynamicCollectionLayout.m */,
+			);
+			path = "弹簧效果collection";
+			sourceTree = "<group>";
+		};
+		FCA1BB4120BBDEB000588E43 /* 滤镜效果 */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1BB3C20B80AEB00588E43 /* fbb.jpeg */,
+				FCA1BB3120B7F3F800588E43 /* FilterViewController.h */,
+				FCA1BB3220B7F3F800588E43 /* FilterViewController.m */,
+				FCA1BB3320B7F3F800588E43 /* FilterViewController.xib */,
+				FCA1BB3920B7F56900588E43 /* UIImage+QRcode.h */,
+				FCA1BB3A20B7F56900588E43 /* UIImage+QRcode.m */,
+			);
+			path = "滤镜效果";
 			sourceTree = "<group>";
 		};
 		FCA38E4520A99476008EC48C /* DMProgressHUB */ = {
@@ -466,12 +552,16 @@
 				FC6F93B320B3A709004848D5 /* sparkle.png in Resources */,
 				FC6F93A820B2B885004848D5 /* snow.png in Resources */,
 				FC6F93C520B3E568004848D5 /* CollectionDetailViewController.xib in Resources */,
+				FC6F93F220B79E6B004848D5 /* zz_DynamicCollectionViewController.xib in Resources */,
 				FCA38E5120A99476008EC48C /* angle-mask@2x.png in Resources */,
 				FC8151C8209993A200BFF58E /* LaunchScreen.storyboard in Resources */,
 				FC8151C5209993A200BFF58E /* Assets.xcassets in Resources */,
 				FCA38E5420A99476008EC48C /* angle-mask.png in Resources */,
+				FC6F93DA20B53A71004848D5 /* GradientViewController.xib in Resources */,
 				FCA38E5920A9957D008EC48C /* 2.jpg in Resources */,
 				FC8151C3209993A200BFF58E /* Main.storyboard in Resources */,
+				FCA1BB3D20B80AEB00588E43 /* fbb.jpeg in Resources */,
+				FCA1BB3520B7F3F800588E43 /* FilterViewController.xib in Resources */,
 				FC6F93B520B3AC91004848D5 /* praise_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,16 +583,22 @@
 				FC1853B520A2958300917A4C /* BlockTestViewController.m in Sources */,
 				FC18538F209FE4D700917A4C /* Moniter.m in Sources */,
 				FC6F93BA20B3ACE8004848D5 /* PrizeButton.m in Sources */,
+				FC6F93E420B53AE8004848D5 /* TransparencyView.m in Sources */,
 				FC185393209FE50600917A4C /* FPSViewController.m in Sources */,
 				FC6F93C820B3E5A0004848D5 /* zz_AnimatedTransitioning.m in Sources */,
 				FCA38E5320A99476008EC48C /* DMProgressAnimateImage.m in Sources */,
 				FCA38E5220A99476008EC48C /* DMProgressHUB.m in Sources */,
+				FC6F93D920B53A71004848D5 /* GradientViewController.m in Sources */,
+				FC6F93ED20B79E29004848D5 /* zz_DynamicCollectionViewController.m in Sources */,
 				FCA38E4F20A99476008EC48C /* DMRadiaView.m in Sources */,
 				FC1FF33420AC3605005D3184 /* AnimateView.m in Sources */,
+				FC6F93F020B79E4D004848D5 /* zz_DynamicCollectionLayout.m in Sources */,
 				FC1853AB20A1488900917A4C /* DataStructureViewController.m in Sources */,
+				FC6F93E120B53AE0004848D5 /* CGShading_Axial.m in Sources */,
 				FC8151C0209993A200BFF58E /* ViewController.m in Sources */,
 				FC1853A120A0383500917A4C /* NSObject+delegateHook.m in Sources */,
 				FC6F93C420B3E568004848D5 /* CollectionDetailViewController.m in Sources */,
+				FCA1BB3B20B7F56900588E43 /* UIImage+QRcode.m in Sources */,
 				FC8151D62099A16900BFF58E /* BoundsTestViewController.m in Sources */,
 				FC6F93D520B4FFD1004848D5 /* zz_PopInteractiveTransition.m in Sources */,
 				FC8151D32099951500BFF58E /* ZZTableDataSource.m in Sources */,
@@ -510,13 +606,17 @@
 				FC1FF33B20AC36B7005D3184 /* UIColor+Extend.m in Sources */,
 				FC6F93A620B2B648004848D5 /* SnowEmitterLayer.m in Sources */,
 				FCA38E4320A9946B008EC48C /* HUBViewController.m in Sources */,
+				FC6F93E220B53AE0004848D5 /* CGShading_Radial.m in Sources */,
 				FC1FF34020AD270E005D3184 /* UnRecognizeResolveViewController.m in Sources */,
+				FC6F93EA20B5403D004848D5 /* CoreGraphicsGradientView.m in Sources */,
 				FC8151BD209993A200BFF58E /* AppDelegate.m in Sources */,
 				FC66DBD320AE7CCA0087483E /* fishhook.c in Sources */,
+				FC6F93E720B53D29004848D5 /* CAGradientView.m in Sources */,
 				FC6F93A220B2B5BB004848D5 /* EmitterViewController.m in Sources */,
 				FC1853AF20A173FA00917A4C /* ArgsViewController.m in Sources */,
 				FC66DBBF20AD66D60087483E /* AutoReleasePoolTestViewController.m in Sources */,
 				FC1FF33820AC3653005D3184 /* OpenScreenViewController.m in Sources */,
+				FCA1BB3420B7F3F800588E43 /* FilterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

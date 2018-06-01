@@ -12,6 +12,8 @@
 
 @end
 
+typedef void(^CapBlock)(NSObject *);
+CapBlock capBlock;
 @implementation BlockTestViewController
 
 - (void)viewDidLoad {
@@ -21,6 +23,22 @@
     
     //测试block的存储位置
     [self testBlockType];
+    
+    //测试捕获
+    [self captureObject];
+    capBlock([[NSObject alloc] init]);
+    capBlock([[NSObject alloc] init]);
+    capBlock([[NSObject alloc] init]);
+    
+    //测试捕获
+    __block int num = 10;
+    void (^capNum)(void) = ^() {
+        NSLog(@"读取局部变量：%d", num);
+        num = 1000;
+    };
+    num = 20;
+    capNum();
+    NSLog(@"block执行变量：%d", num);
 }
 
 /**
@@ -47,6 +65,18 @@
         NSLog(@"test Arr :%@", list);
     };
     NSLog(@"-------%@", test1); //访问外部+又被指针指+又ARC，Malloc
+}
+
+- (void)captureObject {
+    NSMutableArray *muArray = [NSMutableArray array];
+    NSLog(@"%p", muArray);
+    capBlock = ^(NSObject *object) {
+        [muArray addObject:object];
+        NSLog(@"元素个数：%ld", muArray.count);
+        NSLog(@"%p", muArray);
+    };
+    [muArray addObject:@"1"];
+    NSLog(@"%p", [muArray copy]);
 }
 
 /**

@@ -36,6 +36,7 @@ typedef void(^ViewWillApperInject)(UIViewController *ctl, BOOL animate);
     if (self.preferFullPop &&
         ![self.interactivePopGestureRecognizer.view.gestureRecognizers containsObject:self.fullScreenPan]) {
         [self.interactivePopGestureRecognizer.view addGestureRecognizer:self.fullScreenPan];
+        self.interactivePopGestureRecognizer.enabled = NO;
         NSArray *internalTargets = [self.interactivePopGestureRecognizer valueForKey:@"targets"];
         id internalTarget = [internalTargets.firstObject valueForKey:@"target"];
         SEL internalAction = NSSelectorFromString(@"handleNavigationTransition:");

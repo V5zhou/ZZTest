@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13771"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GradientViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgW-Kp-kV2" customClass="CGShading_Axial">
+                    <rect key="frame" x="15" y="15" width="165" height="165"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="cgW-Kp-kV2" secondAttribute="height" id="god-V1-Z1L"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kuk-ub-gzL" customClass="CGShading_Radial">
+                    <rect key="frame" x="195" y="15" width="165" height="165"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kuk-ub-gzL" secondAttribute="height" id="fR7-Mw-Tc0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PxX-Pf-S0w" customClass="TransparencyView">
+                    <rect key="frame" x="15" y="195" width="165" height="165"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="PxX-Pf-S0w" secondAttribute="height" id="C0u-qZ-T5k"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PaE-iA-bVW" customClass="CAGradientView">
+                    <rect key="frame" x="195" y="195" width="165" height="165"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nkY-F8-YFZ" customClass="CoreGraphicsGradientView">
+                    <rect key="frame" x="15" y="375" width="165" height="165"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jpV-bl-UMg">
+                    <rect key="frame" x="195" y="375" width="165" height="165"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PaE-iA-bVW" firstAttribute="width" secondItem="PaE-iA-bVW" secondAttribute="height" id="1ME-P7-5Qt"/>
+                <constraint firstItem="nkY-F8-YFZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="1ro-aT-7vj"/>
+                <constraint firstItem="PxX-Pf-S0w" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="9yy-Va-4yT"/>
+                <constraint firstItem="PaE-iA-bVW" firstAttribute="top" secondItem="kuk-ub-gzL" secondAttribute="bottom" constant="15" id="C5L-H3-H4I"/>
+                <constraint firstItem="kuk-ub-gzL" firstAttribute="leading" secondItem="cgW-Kp-kV2" secondAttribute="trailing" constant="15" id="FV5-Ct-xJL"/>
+                <constraint firstItem="jpV-bl-UMg" firstAttribute="leading" secondItem="nkY-F8-YFZ" secondAttribute="trailing" constant="15" id="HRV-Ch-oXR"/>
+                <constraint firstItem="PaE-iA-bVW" firstAttribute="leading" secondItem="PxX-Pf-S0w" secondAttribute="trailing" constant="15" id="HSN-Ud-9LT"/>
+                <constraint firstItem="PaE-iA-bVW" firstAttribute="width" secondItem="PxX-Pf-S0w" secondAttribute="width" id="MLg-Yx-8gn"/>
+                <constraint firstAttribute="trailing" secondItem="jpV-bl-UMg" secondAttribute="trailing" constant="15" id="Mhk-bc-RD7"/>
+                <constraint firstItem="nkY-F8-YFZ" firstAttribute="width" secondItem="nkY-F8-YFZ" secondAttribute="height" id="SPt-au-igu"/>
+                <constraint firstItem="jpV-bl-UMg" firstAttribute="width" secondItem="nkY-F8-YFZ" secondAttribute="width" id="ZDh-Qu-qoD"/>
+                <constraint firstItem="nkY-F8-YFZ" firstAttribute="top" secondItem="PxX-Pf-S0w" secondAttribute="bottom" constant="15" id="cY2-qr-Ic6"/>
+                <constraint firstItem="PxX-Pf-S0w" firstAttribute="top" secondItem="cgW-Kp-kV2" secondAttribute="bottom" constant="15" id="eUi-zs-xcb"/>
+                <constraint firstItem="kuk-ub-gzL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="fhg-8c-FaF"/>
+                <constraint firstItem="kuk-ub-gzL" firstAttribute="width" secondItem="cgW-Kp-kV2" secondAttribute="width" id="gMB-wD-uHc"/>
+                <constraint firstItem="jpV-bl-UMg" firstAttribute="top" secondItem="PaE-iA-bVW" secondAttribute="bottom" constant="15" id="hln-mW-NOF"/>
+                <constraint firstItem="jpV-bl-UMg" firstAttribute="width" secondItem="jpV-bl-UMg" secondAttribute="height" id="i3c-Tm-fr9"/>
+                <constraint firstAttribute="trailing" secondItem="kuk-ub-gzL" secondAttribute="trailing" constant="15" id="iwa-WK-axy"/>
+                <constraint firstItem="cgW-Kp-kV2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="nrZ-EV-3yh"/>
+                <constraint firstItem="cgW-Kp-kV2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="pBJ-g3-qWH"/>
+                <constraint firstAttribute="trailing" secondItem="PaE-iA-bVW" secondAttribute="trailing" constant="15" id="shY-u8-Dzz"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="33.5" y="70.5"/>
+        </view>
+    </objects>
+</document>

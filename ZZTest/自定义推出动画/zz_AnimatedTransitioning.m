@@ -44,7 +44,7 @@
     
     animateFrom.hidden = YES;
     animateTo.hidden = YES;
-    
+    [to.view layoutIfNeeded];
     //动画
     [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 usingSpringWithDamping:0.8 initialSpringVelocity:5 options:UIViewAnimationOptionCurveLinear animations:^{
         to.view.alpha = 1;
