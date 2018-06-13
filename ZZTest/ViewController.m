@@ -39,6 +39,7 @@
                                       @"渐变色",
                                       @"collection的弹簧效果",
                                       @"滤镜效果",
+                                      @"多线程相关",
                                       ]
                                   ];
 }
@@ -71,6 +72,7 @@
                        @"渐变色" : @"GradientViewController",
                        @"collection的弹簧效果" : @"zz_DynamicCollectionViewController",
                        @"滤镜效果" : @"FilterViewController",
+                       @"多线程相关" : @"ThreadViewController",
                        };
     }
     return _pushClass;

@@ -1,0 +1,59 @@
+# ############################ 安装appledoc ############################
+
+which appledoc
+is_installed=$?
+# 如果未安装，则安装
+if [ ${is_installed} == 1 ]
+then
+	echo '您尚未安装appledoc，不能生成项目注释。是否安装？同意回复Y'
+	read is_agree
+
+	if [ ${is_agree} == 'Y' ]
+	then
+		echo "正在安装appledoc。。。"
+		git clone git://github.com/tomaz/appledoc.git
+		cd ~/appledoc
+		sudo sh install-appledoc.sh
+		echo "appledoc安装成功"
+	else
+		echo "未同意安装appledoc，退出"
+		exit
+	fi
+else
+	echo 'appledoc已安装'
+fi
+
+# ############################ 注释文档导出 ############################
+
+# #:表示从左开始算起，并且截取第一个匹配的字符
+# ##:表示从左开始算起，并且截取最后一个匹配的字符
+# %:表示从右开始算起，并且截取第一个匹配的字符
+# %%:表示从右开始算起，并且截取最后一个匹配的字符
+
+# 记录个人桌面
+cd ~
+DESKTOP="`pwd`/desktop"
+echo $DESKTOP
+
+# 当前可执行文件路径/文件夹名称/导出html路径
+cd $(dirname $0)
+project_path=`pwd`
+project_name="${project_path##*/}"
+export_path="${DESKTOP}/我的注释/${project_name}"
+
+echo "$project_path>>>$project_name>>>$export_path"
+
+# 如果不存在此文件夹，则创建
+if [ ! -d ${export_path} ];then
+mkdir -p ${export_path}
+fi
+
+# 开始生成html注释
+appledoc --no-create-docset -p ${project_name} -c 'zz代码注释' -i ${project_path}/Pods -o ${export_path} ./
+
+# 打开文件
+HTML_PATH="${export_path}/html/hierarchy.html"
+open ${HTML_PATH}
+echo '已open'
+
+

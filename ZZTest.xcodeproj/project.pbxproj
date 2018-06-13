@@ -68,6 +68,7 @@
 		FCA38E5320A99476008EC48C /* DMProgressAnimateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA38E4C20A99476008EC48C /* DMProgressAnimateImage.m */; };
 		FCA38E5420A99476008EC48C /* angle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA38E4E20A99476008EC48C /* angle-mask.png */; };
 		FCA38E5920A9957D008EC48C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCA38E5820A9957C008EC48C /* 2.jpg */; };
+		FCB88E9A20C62FDF00495756 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB88E9920C62FDF00495756 /* ThreadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +179,8 @@
 		FCA38E4D20A99476008EC48C /* DMProgressHUB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMProgressHUB.h; sourceTree = "<group>"; };
 		FCA38E4E20A99476008EC48C /* angle-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
 		FCA38E5820A9957C008EC48C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FCB88E9820C62FDF00495756 /* ThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
+		FCB88E9920C62FDF00495756 /* ThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +379,8 @@
 				FC8151BC209993A200BFF58E /* AppDelegate.m */,
 				FC8151BE209993A200BFF58E /* ViewController.h */,
 				FC8151BF209993A200BFF58E /* ViewController.m */,
+				FCB88E9820C62FDF00495756 /* ThreadViewController.h */,
+				FCB88E9920C62FDF00495756 /* ThreadViewController.m */,
 				FCA1BB4120BBDEB000588E43 /* 滤镜效果 */,
 				FCA1BB3020B7EEC200588E43 /* 弹簧效果collection */,
 				FC6F93DB20B53A81004848D5 /* 渐变色 */,
@@ -600,6 +605,7 @@
 				FC6F93C420B3E568004848D5 /* CollectionDetailViewController.m in Sources */,
 				FCA1BB3B20B7F56900588E43 /* UIImage+QRcode.m in Sources */,
 				FC8151D62099A16900BFF58E /* BoundsTestViewController.m in Sources */,
+				FCB88E9A20C62FDF00495756 /* ThreadViewController.m in Sources */,
 				FC6F93D520B4FFD1004848D5 /* zz_PopInteractiveTransition.m in Sources */,
 				FC8151D32099951500BFF58E /* ZZTableDataSource.m in Sources */,
 				FC8151CB209993A200BFF58E /* main.m in Sources */,

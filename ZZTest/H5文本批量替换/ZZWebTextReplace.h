@@ -15,13 +15,13 @@ typedef NSString *ReplaceText;      ///< 替换后文字
 
 /**
  开始监听URL请求
- # 传入URLS为一个字典，字典结构为
- # {
- #    LisenURL: {
- #        SourceText: ReplaceText
- #    }
- # }
- # 注意：LisenURL不一定为你发起请求的源URL，因为一个请求包含有css，js，html，公共js文件，每个文件都是一个URL。监听的为对应文件的URL。
+ > 传入URLS为一个字典，字典结构为
+ > {
+ >    LisenURL: {
+ >        SourceText: ReplaceText
+ >    }
+ > }
+ > 注意：LisenURL不一定为你发起请求的源URL，因为一个请求包含有css，js，html，公共js文件，每个文件都是一个URL。监听的为对应文件的URL。
  */
 + (void)startWithLisenURLS:(NSDictionary<LisenURL, NSDictionary<SourceText, ReplaceText> *> *)URLS;
 

@@ -21,7 +21,10 @@
     [self testEndian];
 }
 
-//测试字节存储顺序
+
+/**
+ 测试字节存储顺序
+ */
 - (void)testEndian {
     union {
         short s;

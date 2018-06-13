@@ -11,7 +11,7 @@
 extern NSString *kNotificationPanProgress;
 @interface UINavigationController (fullScreenPop)
 
-@property (nonatomic, assign) BOOL preferFullPop;
+@property (nonatomic, assign) BOOL preferFullPop;   ///< 是否开启全屏手势
 
 @end
 
