@@ -15,9 +15,10 @@
 		FC1853B520A2958300917A4C /* BlockTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1853B420A2958300917A4C /* BlockTestViewController.m */; };
 		FC1FF33420AC3605005D3184 /* AnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33320AC3605005D3184 /* AnimateView.m */; };
 		FC1FF33820AC3653005D3184 /* OpenScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33720AC3653005D3184 /* OpenScreenViewController.m */; };
-		FC1FF33B20AC36B7005D3184 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33920AC36B7005D3184 /* UIColor+Extend.m */; };
 		FC1FF34020AD270E005D3184 /* UnRecognizeResolveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF33F20AD270E005D3184 /* UnRecognizeResolveViewController.m */; };
 		FC1FF34320AD2793005D3184 /* NSObject+unrecognizeResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF34220AD2793005D3184 /* NSObject+unrecognizeResolve.m */; };
+		FC39925227E1DEB50029A975 /* TestWeakStrongVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC39925127E1DEB50029A975 /* TestWeakStrongVC.m */; };
+		FC39925627E1E6BF0029A975 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = FC39925427E1E6BE0029A975 /* UIColor+Extend.m */; };
 		FC66DBBF20AD66D60087483E /* AutoReleasePoolTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC66DBBE20AD66D60087483E /* AutoReleasePoolTestViewController.m */; };
 		FC66DBC920AE79CC0087483E /* HookCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC66DBC820AE79CC0087483E /* HookCViewController.m */; };
 		FC66DBD320AE7CCA0087483E /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FC66DBD220AE7CCA0087483E /* fishhook.c */; };
@@ -71,6 +72,19 @@
 		FCB88E9A20C62FDF00495756 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB88E9920C62FDF00495756 /* ThreadViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FCBF0AD626818B8F00F06758 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		FC18538D209FE4D700917A4C /* Moniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moniter.h; sourceTree = "<group>"; };
 		FC18538E209FE4D700917A4C /* Moniter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moniter.m; sourceTree = "<group>"; };
@@ -89,12 +103,14 @@
 		FC1FF33320AC3605005D3184 /* AnimateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateView.m; sourceTree = "<group>"; };
 		FC1FF33620AC3653005D3184 /* OpenScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenScreenViewController.h; sourceTree = "<group>"; };
 		FC1FF33720AC3653005D3184 /* OpenScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenScreenViewController.m; sourceTree = "<group>"; };
-		FC1FF33920AC36B7005D3184 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
-		FC1FF33A20AC36B7005D3184 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
 		FC1FF33E20AD270E005D3184 /* UnRecognizeResolveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnRecognizeResolveViewController.h; sourceTree = "<group>"; };
 		FC1FF33F20AD270E005D3184 /* UnRecognizeResolveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnRecognizeResolveViewController.m; sourceTree = "<group>"; };
 		FC1FF34120AD2793005D3184 /* NSObject+unrecognizeResolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+unrecognizeResolve.h"; sourceTree = "<group>"; };
 		FC1FF34220AD2793005D3184 /* NSObject+unrecognizeResolve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+unrecognizeResolve.m"; sourceTree = "<group>"; };
+		FC39925027E1DEB50029A975 /* TestWeakStrongVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWeakStrongVC.h; sourceTree = "<group>"; };
+		FC39925127E1DEB50029A975 /* TestWeakStrongVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWeakStrongVC.m; sourceTree = "<group>"; };
+		FC39925427E1E6BE0029A975 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		FC39925527E1E6BE0029A975 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
 		FC66DBBD20AD66D60087483E /* AutoReleasePoolTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoReleasePoolTestViewController.h; sourceTree = "<group>"; };
 		FC66DBBE20AD66D60087483E /* AutoReleasePoolTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoReleasePoolTestViewController.m; sourceTree = "<group>"; };
 		FC66DBC720AE79CC0087483E /* HookCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookCViewController.h; sourceTree = "<group>"; };
@@ -244,21 +260,14 @@
 		FC1FF33520AC3610005D3184 /* 一个开屏动画 */ = {
 			isa = PBXGroup;
 			children = (
+				FC39925527E1E6BE0029A975 /* UIColor+Extend.h */,
+				FC39925427E1E6BE0029A975 /* UIColor+Extend.m */,
 				FC1FF33220AC3605005D3184 /* AnimateView.h */,
 				FC1FF33320AC3605005D3184 /* AnimateView.m */,
 				FC1FF33620AC3653005D3184 /* OpenScreenViewController.h */,
 				FC1FF33720AC3653005D3184 /* OpenScreenViewController.m */,
 			);
 			path = "一个开屏动画";
-			sourceTree = "<group>";
-		};
-		FC1FF33D20AD26C4005D3184 /* 第三方 */ = {
-			isa = PBXGroup;
-			children = (
-				FC1FF33A20AC36B7005D3184 /* UIColor+Extend.h */,
-				FC1FF33920AC36B7005D3184 /* UIColor+Extend.m */,
-			);
-			path = "第三方";
 			sourceTree = "<group>";
 		};
 		FC1FF34420AD344B005D3184 /* 避免UnRecognize崩溃 */ = {
@@ -270,6 +279,15 @@
 				FC1FF34220AD2793005D3184 /* NSObject+unrecognizeResolve.m */,
 			);
 			path = "避免UnRecognize崩溃";
+			sourceTree = "<group>";
+		};
+		FC39925327E1DF110029A975 /* 测试weakStrong */ = {
+			isa = PBXGroup;
+			children = (
+				FC39925027E1DEB50029A975 /* TestWeakStrongVC.h */,
+				FC39925127E1DEB50029A975 /* TestWeakStrongVC.m */,
+			);
+			path = "测试weakStrong";
 			sourceTree = "<group>";
 		};
 		FC66DBC020AD66DC0087483E /* AutoReleasePool底层原理 */ = {
@@ -381,6 +399,7 @@
 				FC8151BF209993A200BFF58E /* ViewController.m */,
 				FCB88E9820C62FDF00495756 /* ThreadViewController.h */,
 				FCB88E9920C62FDF00495756 /* ThreadViewController.m */,
+				FC39925327E1DF110029A975 /* 测试weakStrong */,
 				FCA1BB4120BBDEB000588E43 /* 滤镜效果 */,
 				FCA1BB3020B7EEC200588E43 /* 弹簧效果collection */,
 				FC6F93DB20B53A81004848D5 /* 渐变色 */,
@@ -400,7 +419,6 @@
 				FC8151DF209B13F100BFF58E /* H5文本批量替换 */,
 				FC8151DB2099A80A00BFF58E /* Bounds测试 */,
 				FC8151DA2099A7F500BFF58E /* ZZTableDataSource */,
-				FC1FF33D20AD26C4005D3184 /* 第三方 */,
 				FC8151C1209993A200BFF58E /* Main.storyboard */,
 				FC185394209FF00500917A4C /* PrefixHeader.pch */,
 				FC8151C4209993A200BFF58E /* Assets.xcassets */,
@@ -503,6 +521,7 @@
 				FC8151B4209993A200BFF58E /* Sources */,
 				FC8151B5209993A200BFF58E /* Frameworks */,
 				FC8151B6209993A200BFF58E /* Resources */,
+				FCBF0AD626818B8F00F06758 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -579,8 +598,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1FF34320AD2793005D3184 /* NSObject+unrecognizeResolve.m in Sources */,
+				FC39925627E1E6BF0029A975 /* UIColor+Extend.m in Sources */,
 				FC8151E8209BFB4A00BFF58E /* ZZWebTextReplace.m in Sources */,
 				FC66DBD920B279B30087483E /* UINavigationController+fullScreenPop.m in Sources */,
+				FC39925227E1DEB50029A975 /* TestWeakStrongVC.m in Sources */,
 				FC6F93C020B3E545004848D5 /* CollectionViewController.m in Sources */,
 				FC8151DE209B13EB00BFF58E /* URLProtocolViewController.m in Sources */,
 				FC6F93BD20B3B7D5004848D5 /* ReplicatorLayer.m in Sources */,
@@ -609,7 +630,6 @@
 				FC6F93D520B4FFD1004848D5 /* zz_PopInteractiveTransition.m in Sources */,
 				FC8151D32099951500BFF58E /* ZZTableDataSource.m in Sources */,
 				FC8151CB209993A200BFF58E /* main.m in Sources */,
-				FC1FF33B20AC36B7005D3184 /* UIColor+Extend.m in Sources */,
 				FC6F93A620B2B648004848D5 /* SnowEmitterLayer.m in Sources */,
 				FCA38E4320A9946B008EC48C /* HUBViewController.m in Sources */,
 				FC6F93E220B53AE0004848D5 /* CGShading_Radial.m in Sources */,
@@ -758,13 +778,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YH6XM8252K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZZTest/第三方",
+					"$(PROJECT_DIR)/ZZTest",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ZZTest/PrefixHeader.pch;
 				INFOPLIST_FILE = ZZTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = DM.ZZTest;
+				PRODUCT_BUNDLE_IDENTIFIER = DM.ZZTest4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -776,13 +801,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YH6XM8252K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZZTest/第三方",
+					"$(PROJECT_DIR)/ZZTest",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ZZTest/PrefixHeader.pch;
 				INFOPLIST_FILE = ZZTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = DM.ZZTest;
+				PRODUCT_BUNDLE_IDENTIFIER = DM.ZZTest4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

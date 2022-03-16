@@ -40,6 +40,7 @@
                                       @"collection的弹簧效果",
                                       @"滤镜效果",
                                       @"多线程相关",
+                                      @"weakStrong测试",
                                       ]
                                   ];
 }
@@ -73,6 +74,7 @@
                        @"collection的弹簧效果" : @"zz_DynamicCollectionViewController",
                        @"滤镜效果" : @"FilterViewController",
                        @"多线程相关" : @"ThreadViewController",
+                       @"weakStrong测试": @"TestWeakStrongVC",
                        };
     }
     return _pushClass;
